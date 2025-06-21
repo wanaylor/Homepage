@@ -1,6 +1,9 @@
 # The case for monitoring
 I have basic vizualization set up but admittedly not much monitoring. Checking my system one Saturday evening I found surprisingly high power draw on my UPS. Almost everything on my UPS is arm based with the exception of my Proxmox host. A quick look through my VM inventory found the culprit, my Prometheus anomaly detection VM has I/O and CPU utilization through the roof since around 2am.
 
+![image](https://github.com/user-attachments/assets/a0bac98c-0d77-49fe-a07f-74fae4b246f0)
+
+
 ![image](https://github.com/user-attachments/assets/f395f97c-3cd6-4046-975b-fcb2452b52db)
 
 Investigating in the VM shows the high usage coming from rsyslogd.
