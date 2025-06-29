@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>~/ on </title>
+    <link>http://0.0.0.0:1313/</link>
+    <description>Recent content in ~/ on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jun 2025 22:10:07 -0400</lastBuildDate>
+    <atom:link href="http://0.0.0.0:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crash Course: Machine Learning Based Anomaly Detection in Prometheus and Grafana</title>
+      <link>http://0.0.0.0:1313/post/network_anomaly_detection/</link>
+      <pubDate>Sat, 28 Jun 2025 22:10:07 -0400</pubDate>
+      <guid>http://0.0.0.0:1313/post/network_anomaly_detection/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve spend the last ~1 year working in anomaly detection. Here I&amp;rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Smart Thermostat vs. SSL Verification</title>
+      <link>http://0.0.0.0:1313/post/hacking_my_smart_thermostat/</link>
+      <pubDate>Sat, 28 Jun 2025 22:09:25 -0400</pubDate>
+      <guid>http://0.0.0.0:1313/post/hacking_my_smart_thermostat/</guid>
+      <description>&lt;p&gt;IoT devices often get a bad rap on security; my smart thermostat is no exception. Here I will show how I performed a man in the middle attack on my smart thermostat&amp;rsquo;s iOS app to get my own auth credentials and information about the api endpoints being used in the app.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://0.0.0.0:1313/about/</link>
+      <pubDate>Sat, 28 Jun 2025 19:11:53 -0400</pubDate>
+      <guid>http://0.0.0.0:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitor Your Machines!</title>
+      <link>http://0.0.0.0:1313/post/the_case_for_monitoring/</link>
+      <pubDate>Wed, 25 Jun 2025 20:38:35 -0400</pubDate>
+      <guid>http://0.0.0.0:1313/post/the_case_for_monitoring/</guid>
+      <description>&lt;p&gt;I have basic vizualization set up but admittedly not much monitoring. Checking my system one Saturday evening I found surprisingly high power draw on my UPS. Almost everything on my UPS is arm based with the exception of my Proxmox host. A quick look through my VM inventory found the culprit, my Prometheus anomaly detection VM has I/O and CPU utilization through the roof since around 2am.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

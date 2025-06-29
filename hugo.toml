@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+colorscheme = 'auto'
+sectionPagesMenu = 'main'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 10
+
+[params.ananke.social.follow]
+networks = [
+  "github",
+  "linkedin"
+]
+[params.ananke.social.share]
+icons = true
+sharetext = true
+networks = [
+  "linkedin"
+]
+[params.ananke.social.linkedin]
+username = "andrew~naylor"
+[params.ananke.social.github]
+username = "wanaylor"
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
