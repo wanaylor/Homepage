@@ -1,0 +1,98 @@
+/* Dark theme overrides */
+body {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Header and navigation */
+header {
+  background-color: #1a1a1a !important;
+}
+
+/* Article backgrounds */
+article {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Fix Posts page and other section pages - but exclude navigation */
+.single, .home {
+  background-color: #1a1a1a !important;
+}
+
+/* Only apply dark background to main content lists, not navigation */
+main .list, .content .list {
+  background-color: #1a1a1a !important;
+}
+
+/* Make sure navigation list items are transparent */
+nav .list, header .list {
+  background-color: transparent !important;
+}
+
+/* Main content areas */
+main, .main {
+  background-color: #1a1a1a !important;
+}
+
+/* Section pages (like /posts/) */
+.section {
+  background-color: #1a1a1a !important;
+}
+
+/* All page containers */
+.page, .content, .container {
+  background-color: #1a1a1a !important;
+}
+
+/* Override any white backgrounds */
+.bg-white, .bg-near-white {
+  background-color: #1a1a1a !important;
+}
+
+a:hover {
+  color: #66b3ff !important;
+}
+
+/* Remove blue from titles and navigation */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #e0e0e0 !important;
+  text-decoration: none;
+}
+
+nav a, .nav-links a {
+  color: #e0e0e0 !important;
+}
+
+/* Remove blue text classes */
+.blue, .dark-blue, .navy {
+  color: #e0e0e0 !important;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #3d3d3d !important;
+  color: #f0f0f0 !important;
+}
+
+/* Borders */
+.bb, .b--black-10 {
+  border-color: #444 !important;
+}
+
+/* Post summaries */
+.nested-copy-line-height {
+  color: #cccccc !important;
+}
+
+/* Buttons */
+.btn, .ba {
+  background-color: #444 !important;
+  color: #e0e0e0 !important;
+  border-color: #666 !important;
+}
+
+.btn:hover {
+  background-color: #555 !important;
+}
+
