@@ -13,7 +13,7 @@
       <link>http://0.0.0.0:1313/post/network_anomaly_detection/</link>
       <pubDate>Sat, 28 Jun 2025 22:10:07 -0400</pubDate>
       <guid>http://0.0.0.0:1313/post/network_anomaly_detection/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve spend the last ~1 year working in anomaly detection. Here I&amp;rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve spent the last ~1 year working in anomaly detection. Here I&amp;rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Smart Thermostat vs. SSL Verification</title>

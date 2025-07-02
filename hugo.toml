@@ -1,7 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wanaylor.github.io/Homepage/'
 languageCode = 'en-us'
 colorscheme = 'auto'
 sectionPagesMenu = 'main'
+[params]
+  custom_css = ["css/custom.css"]
 
 [menus]
   [[menus.main]]

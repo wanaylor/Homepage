@@ -6,7 +6,7 @@
     
     <title>Crash Course: Machine Learning Based Anomaly Detection in Prometheus and Grafana | </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="I&rsquo;ve spend the last ~1 year working in anomaly detection. Here I&rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
+    <meta name="description" content="I&rsquo;ve spent the last ~1 year working in anomaly detection. Here I&rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
     <meta name="generator" content="Hugo 0.147.9">
     
     
@@ -19,6 +19,10 @@
 <link rel="stylesheet" href="/ananke/css/main.min.css" >
 
 
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
 
 
     
@@ -37,7 +41,7 @@
 
     <meta property="og:url" content="http://0.0.0.0:1313/post/network_anomaly_detection/">
   <meta property="og:title" content="Crash Course: Machine Learning Based Anomaly Detection in Prometheus and Grafana">
-  <meta property="og:description" content="I’ve spend the last ~1 year working in anomaly detection. Here I’ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
+  <meta property="og:description" content="I’ve spent the last ~1 year working in anomaly detection. Here I’ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -45,13 +49,13 @@
     <meta property="article:modified_time" content="2025-06-28T22:10:07-04:00">
 
   <meta itemprop="name" content="Crash Course: Machine Learning Based Anomaly Detection in Prometheus and Grafana">
-  <meta itemprop="description" content="I’ve spend the last ~1 year working in anomaly detection. Here I’ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
+  <meta itemprop="description" content="I’ve spent the last ~1 year working in anomaly detection. Here I’ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
   <meta itemprop="datePublished" content="2025-06-28T22:10:07-04:00">
   <meta itemprop="dateModified" content="2025-06-28T22:10:07-04:00">
   <meta itemprop="wordCount" content="31">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Crash Course: Machine Learning Based Anomaly Detection in Prometheus and Grafana">
-  <meta name="twitter:description" content="I’ve spend the last ~1 year working in anomaly detection. Here I’ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
+  <meta name="twitter:description" content="I’ve spent the last ~1 year working in anomaly detection. Here I’ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -63,7 +67,7 @@
   
   
   
-  <header class="cover bg-center" style="background-image: url('http://0.0.0.0:1313/images/rah.jpg');">
+  <header class="cover bg-center" style="background-image: url('/post/network_anomaly_detection/images/dashboard3.jpg');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
@@ -138,7 +142,7 @@
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           
         Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://www.linkedin.com/shareArticle?&amp;mini=true&amp;source=http%3A%2F%2F0.0.0.0%3A1313%2Fpost%2Fnetwork_anomaly_detection%2F&amp;summary=I%26amp%3Brsquo%3Bve&#43;spend&#43;the&#43;last&#43;~1&#43;year&#43;working&#43;in&#43;anomaly&#43;detection.&#43;Here&#43;I%26amp%3Brsquo%3Bll&#43;give&#43;a&#43;short&#43;crash&#43;course&#43;on&#43;how&#43;to&#43;set&#43;up&#43;your&#43;own&#43;anomaly&#43;detection&#43;using&#43;Prometheus%2C&#43;Grafana%2C&#43;and&#43;MLFlow.%0A&amp;title=Crash&#43;Course%3A&#43;Machine&#43;Learning&#43;Based&#43;Anomaly&#43;Detection&#43;in&#43;Prometheus&#43;and&#43;Grafana&amp;url=http%3A%2F%2F0.0.0.0%3A1313%2Fpost%2Fnetwork_anomaly_detection%2F"
+      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://www.linkedin.com/shareArticle?&amp;mini=true&amp;source=http%3A%2F%2F0.0.0.0%3A1313%2Fpost%2Fnetwork_anomaly_detection%2F&amp;summary=I%26amp%3Brsquo%3Bve&#43;spent&#43;the&#43;last&#43;~1&#43;year&#43;working&#43;in&#43;anomaly&#43;detection.&#43;Here&#43;I%26amp%3Brsquo%3Bll&#43;give&#43;a&#43;short&#43;crash&#43;course&#43;on&#43;how&#43;to&#43;set&#43;up&#43;your&#43;own&#43;anomaly&#43;detection&#43;using&#43;Prometheus%2C&#43;Grafana%2C&#43;and&#43;MLFlow.%0A&amp;title=Crash&#43;Course%3A&#43;Machine&#43;Learning&#43;Based&#43;Anomaly&#43;Detection&#43;in&#43;Prometheus&#43;and&#43;Grafana&amp;url=http%3A%2F%2F0.0.0.0%3A1313%2Fpost%2Fnetwork_anomaly_detection%2F"
         class="ananke-social-link linkedin no-underline"
         title="Share on LinkedIn" aria-label="Share on LinkedIn"
         target="_blank" rel="nofollow noopener noreferrer">
@@ -156,7 +160,7 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I&rsquo;ve spend the last ~1 year working in anomaly detection. Here I&rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.</p><ul class="pa0">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I&rsquo;ve spent the last ~1 year working in anomaly detection. Here I&rsquo;ll give a short crash course on how to set up your own anomaly detection using Prometheus, Grafana, and MLFlow.</p><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
